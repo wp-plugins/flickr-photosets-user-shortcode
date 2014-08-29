@@ -176,7 +176,7 @@
 		});
 
 		$('#fpus-next-photo').on('click', function(){
-			buildNext('#next-photo');
+			buildNext('#fpus-next-photo');
 		});
 	}
 
