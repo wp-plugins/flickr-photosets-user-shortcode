@@ -4,9 +4,9 @@ Plugin Name: Flickr Photosets User Shortcode
 Plugin URI: https://github.com/pedromarcelojava/Flickr-Photosets-User-Shortcode
 Description: O plugin permite que todos os photosets, de forma paginada, sejam exibidos em uma página por meio de único 
 shortcode. Dentro de cada photoset estão as imagens que também são exibidas de forma paginada e com lightbox.
-Version: 1.3.1
+Version: 1.3.3
 Author: Pedro Marcelo, Beatriz de Paula
-Author URI: https://www.facebook.com/pedro.marcelo.50
+Author URI: https://github.com/pedromarcelojava/
 License: GPL3
 */
 

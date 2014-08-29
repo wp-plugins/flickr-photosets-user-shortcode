@@ -1,5 +1,5 @@
 ﻿=== Flickr Photosets User Shortcode ===
-Contributors: Pedro Marcelo, Beatriz de Paula
+Contributors: pedromjava, Beatriz de Paula
 Tags: shortcode, flickr, photosets, photoset, simple, lightbox, paginate
 Requires at least: 3.6
 Tested up to: 3.9.1
