@@ -1,10 +1,7 @@
 <?php
 
-function flickr_photosets($atts)
+function fpus_flickr_photosets($atts)
 {
-	$plugin_url = plugin_dir_url( __FILE__ );
-
-	$dir = dirname(__FILE__);
 	$link = get_permalink();
 
 	$parameters = shortcode_atts(
@@ -48,9 +45,6 @@ function flickr_photosets($atts)
 		$countPhotos = count($photosets['photosets']);
 
 		$content = '';
-		wp_enqueue_style('flickr-lightbox-css');
-
-		
 
 		$content .= '<div class="flickr-photos">';
 
@@ -86,7 +80,7 @@ function flickr_photosets($atts)
 	
 		if (intval($photosets['pages']) != 1 && $max_photosets == '50')
 		{
-			$content .= paginationFlickr(intval($photosets['pages']), intval($parameters['page']));
+			$content .= fpusPaginationFlickr(intval($photosets['pages']), intval($parameters['page']));
 		}
 
 

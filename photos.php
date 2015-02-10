@@ -1,10 +1,8 @@
 <?php
 
 
-function flickr_photos($atts)
+function fpus_flickr_photos($atts)
 {
-	$plugin_url = plugin_dir_url( __FILE__ );
-
 	$parameters = shortcode_atts(
 		array(
 			'photoset_id' => '',
@@ -22,8 +20,6 @@ function flickr_photos($atts)
 	$countPhotos = count($photos['photoset']);
 
 	$content = '';
-
-	wp_enqueue_style('flickr-lightbox-css');
 
 	$content .= '<a class="fpus-back-albuns" href="' . get_permalink() . '">Voltar para álbuns</a>';
 	$content .= '<div class="flickr-photos">';
@@ -55,10 +51,8 @@ function flickr_photos($atts)
 	
 	if (intval($photos['pages']) != 1)
 	{
-		$content .= paginationFlickr(intval($photos['pages']), intval($parameters['page']));
+		$content .= fpusPaginationFlickr(intval($photos['pages']), intval($parameters['page']));
 	}
-	
-	wp_enqueue_script('flickr-lightbox-js');
 
 	return $content;
 }

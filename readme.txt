@@ -2,8 +2,8 @@
 Contributors: pedromjava, Beatriz de Paula
 Tags: shortcode, flickr, photosets, photoset, simple, lightbox, paginate
 Requires at least: 3.6
-Tested up to: 3.9.1
-Stable tag: 1.3.3
+Tested up to: 4.1
+Stable tag: 1.3.5
 
 Puxa todos os photosets de uma conta no Flickr e suas imagens por meio de um shortcode.
 
@@ -32,6 +32,10 @@ You should have received a copy of the GNU General Public License along with Fli
 Claro que pode, basta mandar um e-mail para pedromarcelodesaalves@gmail.com com o filtro [SUGESTÃO] no assunto do e-mail ou mande uma mensagem no Facebook http://www.facebook.com/pedro.marcelo.50
 
 == Changelog ==
+
+= 1.3.5 =
+* Corrigindo bug no carregamento do CSS e do Javascript do plugin
+* Reformulando funções do plugin para evitar conflitos
 
 = 1.3.3 =
 * Corrigindo bug na navegação das fotos
